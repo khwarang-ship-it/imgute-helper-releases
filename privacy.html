@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>개인정보처리방침 — ImGute, My Lord</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #555;
+      --line: #ddd;
+      --bg: #fafafa;
+      --card: #fff;
+      --accent: #1f4e79;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 28px 20px;
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.45rem; font-weight: 700; }
+    header p { margin: 0; opacity: 0.9; font-size: 0.92rem; }
+    main {
+      max-width: 820px;
+      margin: 24px auto 48px;
+      padding: 28px 28px 36px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 1.12rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 6px;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p, li { font-size: 0.95rem; }
+    ul { padding-left: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.88rem; margin-bottom: 20px; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 0 16px 32px;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>개인정보처리방침</h1>
+    <p>ImGute, My Lord (김바스찬)</p>
+  </header>
+  <main>
+    <p class="meta">시행일: 2026년 8월 13일 · 버전 1.0</p>
+    <p>
+      ImGute, My Lord(이하 “본 소프트웨어”)는 대전시 공무원 폐쇄망 메신저 업무를 돕는
+      Windows 데스크톱 프로그램입니다. 본 방침은 「개인정보 보호법」에 따라 이용자의
+      개인정보가 어떻게 처리되는지 안내합니다.
+    </p>
+
+    <h2>제1조 (개인정보의 처리 목적)</h2>
+    <p>본 소프트웨어는 다음 목적에 필요한 범위에서만 개인정보를 처리합니다.</p>
+    <ul>
+      <li>메신저 그룹에 담당자를 추가하기 위한 부서명·성명 입력</li>
+      <li>공문 파일명의 키워드 분류 및 폴더 정리</li>
+      <li>프로그램 설정·동작 상태의 로컬 저장</li>
+      <li>(이용자가 동의한 경우에 한함) 오류 진단용 로그의 이메일 전송</li>
+    </ul>
+
+    <h2>제2조 (처리하는 개인정보 항목)</h2>
+    <p><strong>필수·업무 처리 항목</strong></p>
+    <ul>
+      <li>담당자 부서명, 성명 (이용자가 입력하거나 표 파일·클립보드에서 불러온 값)</li>
+      <li>공문 파일명·경로 (이용자가 지정한 폴더 내 파일)</li>
+      <li>프로그램 설정값 (감시 폴더 경로, 자동화 옵션 등)</li>
+    </ul>
+    <p><strong>선택·동의 시에만</strong></p>
+    <ul>
+      <li>오류 로그 파일 (프로그램 동작 기록; 담당자 성명·부서가 포함될 수 있음)</li>
+    </ul>
+    <p><strong>수집·처리하지 않는 항목</strong></p>
+    <ul>
+      <li>주민등록번호, 여권번호, 운전면허번호 등 고유식별정보</li>
+      <li>위치정보, 생체정보, 결제정보</li>
+      <li>계정 비밀번호, 메신저 로그인 자격증명</li>
+      <li>만 14세 미만 아동의 개인정보 (본 소프트웨어는 성인 공무원 업무용입니다)</li>
+    </ul>
+
+    <h2>제3조 (개인정보의 처리 및 보유 기간)</h2>
+    <ul>
+      <li>담당자 목록·공문 분류 결과: 이용자가 프로그램을 종료하거나 목록을 지울 때까지 로컬에만 보관됩니다. 별도 서버로 전송되지 않습니다.</li>
+      <li>설정 파일: 이용자가 삭제하거나 프로그램을 제거할 때까지 이용자 PC에 보관됩니다.</li>
+      <li>오류 로그(동의 시 이메일 전송): 개발자 이메일 수신함에서 진단 목적 달성 후 지체 없이 삭제합니다.</li>
+    </ul>
+
+    <h2>제4조 (개인정보의 제3자 제공)</h2>
+    <p>
+      본 소프트웨어는 이용자 동의 없이 개인정보를 제3자에게 제공하지 않습니다.
+      다만 법령에 따라 요구되는 경우는 예외로 합니다.
+    </p>
+    <p>
+      자동 업데이트 확인 시 GitHub에 요청하는 정보는 앱 버전·플랫폼 등
+      <strong>개인을 식별하지 않는 기술 메타데이터</strong>에 한정되며, 담당자 성명·부서·공문 내용은 포함되지 않습니다.
+    </p>
+
+    <h2>제5조 (개인정보처리의 위탁)</h2>
+    <p>본 소프트웨어는 개인정보 처리 업무를 외부에 위탁하지 않습니다.</p>
+
+    <h2>제6조 (개인정보의 파기)</h2>
+    <ul>
+      <li>로컬 데이터: 이용자가 프로그램 설정·목록을 삭제하거나 프로그램을 제거하면 함께 삭제됩니다.</li>
+      <li>이메일로 받은 로그: 진단 완료 후 지체 없이 삭제합니다.</li>
+    </ul>
+
+    <h2>제7조 (이용자의 권리·의무)</h2>
+    <p>이용자는 언제든지 프로그램 내 입력·설정 데이터를 삭제하거나 프로그램을 제거할 수 있습니다. 문의는 아래 연락처로 요청할 수 있습니다.</p>
+
+    <h2>제8조 (개인정보의 안전성 확보 조치)</h2>
+    <ul>
+      <li>업무 데이터는 이용자 PC 로컬에만 저장되며, 기본 동작에서 외부 서버로 전송하지 않습니다.</li>
+      <li>메신저 자동화는 이용자 PC에서만 수행되며, 메신저 계정 비밀번호를 저장·수집하지 않습니다.</li>
+      <li>오류 로그 전송은 이용자가 명시적으로 동의한 경우에만 이루어집니다.</li>
+    </ul>
+
+    <h2>제9조 (개인정보 보호책임자)</h2>
+    <ul>
+      <li>성명: 김보성</li>
+      <li>소속: 명석고등학교 교사</li>
+      <li>이메일: <a href="mailto:khwarang2000@ms.hs.kr">khwarang2000@ms.hs.kr</a></li>
+    </ul>
+
+    <h2>제10조 (개인정보처리방침의 변경)</h2>
+    <p>
+      본 방침이 변경되는 경우, 변경 내용과 시행일을 본 페이지에 게시합니다.
+      중요한 변경이 있으면 합리적인 방법으로 고지합니다.
+    </p>
+
+    <h2>제11조 (권익침해 구제)</h2>
+    <p>개인정보 침해에 대한 신고·상담이 필요하면 다음 기관에 문의할 수 있습니다.</p>
+    <ul>
+      <li>개인정보침해신고센터: privacy.kisa.or.kr / (국번없이) 118</li>
+      <li>개인정보분쟁조정위원회: www.kopico.go.kr / 1833-6972</li>
+      <li>대검찰청 사이버수사과: www.spo.go.kr / (국번없이) 1301</li>
+      <li>경찰청 사이버수사국: ecrm.police.go.kr / (국번없이) 182</li>
+    </ul>
+  </main>
+  <footer>
+    © 김보성 · <a href="terms.html">이용약관</a>
+  </footer>
+</body>
+</html>
