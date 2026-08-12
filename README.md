@@ -6,5 +6,7 @@ Source code lives in the private `imgute-helper` repo.
 
 ## Legal
 
-- [개인정보처리방침](https://khwarang-ship-it.github.io/imgute-helper-releases/privacy.html)
-- [이용약관](https://khwarang-ship-it.github.io/imgute-helper-releases/terms.html)
+GitHub Pages for this account redirects to `ms.hs.kr` (Vercel), so public legal pages are served via jsDelivr from this repo:
+
+- [개인정보처리방침](https://cdn.jsdelivr.net/gh/khwarang-ship-it/imgute-helper-releases@main/privacy.html)
+- [이용약관](https://cdn.jsdelivr.net/gh/khwarang-ship-it/imgute-helper-releases@main/terms.html)
